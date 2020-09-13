@@ -25,7 +25,7 @@ mp4 = "test.mp4"
 
 # In the next line, change where you want to store the file
 # If you want to change the name of the file, change the value of the name variable
-mp3 = "Where you want to store the file" + name + ".mp3"
+mp3 = "<file location>" + name + ".mp3"
 videoclip = VideoFileClip(mp4)
 audioclip = videoclip.audio
 audioclip.write_audiofile(mp3)
