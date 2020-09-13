@@ -31,4 +31,6 @@ audioclip = videoclip.audio
 audioclip.write_audiofile(mp3)
 audioclip.close()
 videoclip.close()
+
+# Delete the mp4 file from memory since we don't need it
 os.remove(ytd)
