@@ -1,5 +1,10 @@
 import os
-os.environ["IMAGEIO_FFMPEG_EXE"] = "C:\\FFmpeg\\bin\\ffmpeg.exe"
+
+# If importing moviepy throws an error, uncomment the following line
+# and point the environment variable to where your ffmpeg.exe file is located
+
+# os.environ["IMAGEIO_FFMPEG_EXE"] = "C:\\FFmpeg\\bin\\ffmpeg.exe"
+
 import sys
 from pytube import YouTube
 from pytube import Playlist
